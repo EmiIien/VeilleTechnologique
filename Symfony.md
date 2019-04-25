@@ -23,7 +23,7 @@ apt update
 apt install -y nginx php7.3 php7.3-common php7.3-cli php7.3-fpm php7.3-mysql php7.3-xml php7.3-curl php7.3-mbstring php7.3-zip
 apt upgrade
 ```
-Une fois l'installation terminé vous pouvez vérifier la version de votre php en écrivant ceci :
+Une fois l'installation terminé vous pouvez vérifier la version de votre php :
 ```bash
 php -v
 ```
@@ -42,12 +42,12 @@ Composer (version 1.8.5) successfully installed to: C:\wamp\www\admin\composer.p
 Use it: php composer.phar
 ```
 
-Une fois cela fait nous pouvons déplacer le dossier "composer.phar" :
+Une fois cela fait, nous pouvons déplacer le dossier "composer.phar" :
 ```bash
 mv composer.phar /usr/bin/composer
 ```
 Maintenant nous pouvons créer un projet :<br>
-**Cette commande va créer l'architecture de votre site je vous conseille donc de la lancer dans un dossier**
+**Cette commande va créer l'architecture de votre site, je vous conseille donc de la lancer dans un dossier**
 ```bash
 composer create-project Symfony/website-skeleton nomDuProjet
 ```
@@ -56,10 +56,10 @@ Une fois cette commande lancer vous devrez attendre que le projet soit créé pa
 Pour finir il vous suffit de démarrer le serveur, pour cela placer vous dans le projet et lancer cette commande :
 
 ```bash
-php bin/console server:start 0.0.0.0:8000
+php bin/console server:start votreip:8000
 ```
 
-Puis rendez-vous sur "ip:8000"
+Puis rendez-vous sur "votreip:8000"
 
 ![](images/SymfonyPageAccueil.png)
 
