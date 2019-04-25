@@ -64,4 +64,4 @@ Puis rendez-vous sur "ip:8000"
 ![](images/SymfonyPageAccueil.png)
 
 Installation réaliser sur Debian 9.8 <br>
-Sources pour réaliser ce tuto : www.jesusamieiro.com — www.openclassrooms.com
+Sources pour réaliser ce tuto : www.jesusamieiro.com — www.openclassrooms.com — www.getcomposer.org
