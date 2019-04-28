@@ -5,7 +5,7 @@ Nous verrons comment :
 * télécharger Composer 1.8.5
 * créer un projet Symfony
 
-### Symfony, qu'es ce que c'est ?
+### Symfony, qu'est ce que c'est ?
 
 Symfony est un framework libre écrit en PHP. Il fournit des fonctionnalités modulables et adaptables qui permettent de faciliter et d’accélérer le développement d'un site web.
 Il a été développé par une agence web française "SensioLabs". À force de toujours recréer les mêmes fonctionnalités de gestion d'utilisateurs, gestion ORM, etc., elle a développé ce framework pour ses propres besoins. Comme ces problématiques étaient souvent les mêmes pour d'autres développeurs, le code a été par la suite partagé avec la communauté des développeurs PHP. La première version de Symfony a été réalisé le 18 octobre 2005.
