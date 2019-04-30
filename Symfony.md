@@ -38,7 +38,7 @@ Vous devriez avoir ce résultat :
 All settings correct for using Composer
 Downloading...
 
-Composer (version 1.8.5) successfully installed to: C:\wamp\www\admin\composer.phar
+Composer (version 1.8.5) successfully installed to: /root/composer.phar
 Use it: php composer.phar
 ```
 
