@@ -37,9 +37,9 @@ apt install -y php7.3 php7.3-common php7.3-cli php7.3-fpm php7.3-mysql php7.3-xm
 ```bash
 apt upgrade
 ```
-```bash
+
 Une fois l'installation terminé vous pouvez vérifier la version de votre php :
-```
+
 ```bash
 php -v
 ```
