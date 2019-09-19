@@ -69,7 +69,7 @@ composer create-project Symfony/website-skeleton nomDuProjet
 ```
 Une fois cette commande lancer vous devrez attendre que le projet soit créé par composer, cela peut prendre du temps...
 
-Pour finir il vous suffit de démarrer le serveur, pour cela placer vous dans le projet et lancer cette commande :
+Pour finir il vous suffit de démarrer le serveur, pour cela **placer vous dans le dossier** et lancer cette commande :
 
 ```bash
 php bin/console server:start votreip:8000
