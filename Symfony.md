@@ -5,6 +5,8 @@ Nous verrons comment :
 * télécharger Composer 1.8.5
 * créer un projet Symfony
 
+### ⚠ Attention ce tutoriel ne fonctionne pas sur Debian 10. ⚠
+
 ### Symfony, qu'est ce que c'est ?
 
 Symfony est un framework libre écrit en PHP. Il fournit des fonctionnalités modulables et adaptables qui permettent de faciliter et d’accélérer le développement d'un site web.
@@ -16,14 +18,28 @@ Le 5 septembre 2017, Symfony passe la barre du milliard de téléchargements.
 D'abord nous devons installer php, minimum php 7.1, dans ce tuto je vous montrerais comment installer php 7.3, pour cela il vous suffit de faire cela :
 ```bash 
 apt update
+```
+```bash
 apt install apt-transport-https lsb-release ca-certificates
+```
+```bash
 wget -O /etc/apt/trusted.gpg.d/php.gpg https://packages.sury.org/php/apt.gpg
+```
+```bash
 sh -c 'echo "deb https://packages.sury.org/php/ $(lsb_release -sc) main" > /etc/apt/sources.list.d/php.list'
+```
+```bash
 apt update
-apt install -y nginx php7.3 php7.3-common php7.3-cli php7.3-fpm php7.3-mysql php7.3-xml php7.3-curl php7.3-mbstring php7.3-zip
+```
+```bash
+apt install -y php7.3 php7.3-common php7.3-cli php7.3-fpm php7.3-mysql php7.3-xml php7.3-curl php7.3-mbstring php7.3-zip
+```
+```bash
 apt upgrade
 ```
+```bash
 Une fois l'installation terminé vous pouvez vérifier la version de votre php :
+```
 ```bash
 php -v
 ```
