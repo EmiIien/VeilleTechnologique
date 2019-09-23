@@ -5,7 +5,7 @@ Nous verrons comment :
 * télécharger Composer 1.8.5
 * créer un projet Symfony
 
-### ⚠ Attention ce tutoriel ne fonctionne pas sur Debian 10. ⚠
+### ⚠ Attention ce tutoriel ne fonctionne que sur une machine configuré en pont ⚠
 
 ### Symfony, qu'est ce que c'est ?
 
